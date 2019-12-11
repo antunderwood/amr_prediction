@@ -1,7 +1,9 @@
  process run_ariba {
-   tag {sample_id}
-   publishDir "${params.output_dir}/ariba",
-    mode: 'copy'
+  container 'bioinformant/ghru-ariba:1.0'
+
+  tag {sample_id}
+  publishDir "${params.output_dir}/ariba",
+  mode: 'copy'
 
    input:
    tuple sample_id, file(reads)
@@ -17,18 +19,21 @@
  }
 
  process ariba_summary {
+  container 'bioinformant/ghru-ariba:1.0'
+  
   tag {'ariba summary'}
   publishDir "${params.output_dir}/ariba", mode: 'copy'
 
   input:
   file(report_tsvs)
   file(database_dir)
+  val summary_arguments
 
   output:
   file "ariba_${database_dir}_summary.*"
 
   script:
   """
-  ariba summary ${params.extra_summary_arguments} ariba_${database_dir}_summary ${report_tsvs}
+  ariba summary ${summary_arguments} ariba_${database_dir}_summary ${report_tsvs}
   """
 }
