@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@gitlab.com:cgps/ghru/pipelines/dsl2/modules/read_polishing.git
+	branch = master
+	commit = 4c7991d2188c21f32ef83db9129043f6d47f9517
+	parent = 298c48e9c49dfe6f4a4cea85289ece39b207aa71
+	method = merge
+	cmdver = 0.4.0
