@@ -56,7 +56,8 @@ workflow {
   if (final_params.species){
     pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
     ariba_point_summary_output = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
-    acquired_and_point_summaries = [ariba_acquired_summary_output.summary_file, ariba_point_summary_output.summary_file].flatten()
+    acquired_and_point_summaries = ariba_acquired_summary_output.concat(ariba_point_summary_output).collect()
+    acquired_and_point_summaries.view()
     combine_ariba_summaries(acquired_and_point_summaries)
   }
 
