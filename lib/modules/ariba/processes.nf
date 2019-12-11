@@ -30,8 +30,8 @@
   val summary_arguments
 
   output:
-  file "ariba_${database_dir}_summary.csv", emit: summary_csv
-  file "ariba_${database_dir}_summary.phandnago.*", emit: phandango_files
+  path "ariba_${database_dir}_summary.csv", emit: summary_csv
+  path "ariba_${database_dir}_summary.phandnago.*", emit: phandango_files
 
   script:
   """
