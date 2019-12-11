@@ -9,5 +9,8 @@ workflow ariba {
     ariba_reports = run_ariba(reads, database_dir)
     all_ariba_reports = ariba_reports.collect { it }
 
-    ariba_summary(all_ariba_reports, database_dir, summary_arguments)
+    summary_file = ariba_summary(all_ariba_reports, database_dir, summary_arguments)
+  emits:
+    summary_file
+
 }
