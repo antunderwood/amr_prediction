@@ -27,8 +27,8 @@ read_polising_params_renames = [
   "read_polishing_adapter_file" : "adapter_file",
   "read_polishing_depth_cutoff" : "depth_cutoff"
 ]
-params_for_read_polising = rename_params_keys(final_params, read_polising_params_renames)
-include './lib/modules/read_polishing/worflows' params(params_for_read_polising)
+params_for_read_polishing = rename_params_keys(final_params, read_polising_params_renames)
+include './lib/modules/read_polishing/workflows' params(params_for_read_polishing)
 
 // include ariba functionality
 ariba_params_renames = [
@@ -36,7 +36,7 @@ ariba_params_renames = [
   "ariba_extra_summary_arguments" : "extra_summary_arguments",
 ] 
 params_for_ariba = rename_params_keys(final_params, ariba_params_renames)
-include '.lib/modules/ariba/workflows' params(params_for_ariba)
+include './lib/modules/ariba/workflows' params(params_for_ariba)
 
 
 workflow {
@@ -48,8 +48,11 @@ workflow {
 
   polished_reads = polish_reads(reads)
 
-  // Ariba
+  // Run Ariba with ncbi acquired database
   ariba(polished_reads, params_for_ariba.database_dir)
+  if (final_params.species){
+    pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
+  }
 
 }
 

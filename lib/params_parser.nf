@@ -1,5 +1,5 @@
-include './messages.nf'
-include './params_utilities.nf'
+include './messages'
+include './params_utilities'
 
 def default_params(){
     /***************** Setup inputs and channels ************************/
@@ -21,13 +21,7 @@ def default_params(){
                     
     params.ariba_extra_summary_arguments = false
 
-    params.resfinder_min_cov = false
-    params.resfinder_identity_threshold = false
-    params.resfinder_species = false
-    params.resfinder_point_mutation = false
-    params.resfinder_db_resfinder = false
-    params.resfinder_db_pointfinder = false
-
+    params.species = false
     return params
 }
 
@@ -46,7 +40,22 @@ def check_params(Map params, String version) {
     // set up output directory
     final_params.output_dir = check_mandatory_parameter(params, 'output_dir') - ~/\/$/
 
-    // ariba database - default is in container at /resfinder_database.17.10.2019
+    // ---------------- Read polishing Params ------------------- //
+    if (params.read_polishing_adapter_file){
+        final_params.read_polishing_adapter_file = file(params.read_polishing_adapter_file)
+    } else {
+        final_params.read_polishing_adapter_file = file('adapters.fas')
+    }
+
+    if (params.read_polishing_depth_cutoff){
+        final_params.read_polishing_depth_cutoff = params.read_polishing_depth_cutoff
+    } else {
+        final_params.read_polishing_depth_cutoff = false
+    }
+
+    // ---------------- Ariba Params --------------------- //
+
+    // ariba database - default at ariba_databases/ncbi_db_2019-10-30.1
     if (params.ariba_database_dir){
         final_params.ariba_database_dir = file(params.ariba_database_dir)
     } else {
@@ -58,6 +67,11 @@ def check_params(Map params, String version) {
         final_params.ariba_extra_summary_arguments = params.ariba_extra_summary_arguments
     } else {
         final_params.ariba_extra_summary_arguments = '--preset cluster_all'
+    }
+    //species for pointfinder databases
+    if (params.species){
+        valid_species = ['campylobacter', 'enterococcus_faecalis', 'enterococcus_faecium', 'escherichia_coli', 'helicobacter_pylori', 'klebsiella', 'mycobacterium_tuberculosis', 'neisseria_gonorrhoeae', 'salmonella', 'staphylococcus_aureus']
+        final_params.species = check_parameter_value('species', params.species, valid_species)
     }
 
     return final_params
