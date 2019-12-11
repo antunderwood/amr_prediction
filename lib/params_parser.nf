@@ -19,7 +19,7 @@ def default_params(){
     params.ariba_database_dir = false
     params.ariba_get_database = false
                     
-    params.ariba_extra_summary_arguments = false
+    params.ariba_summary_arguments = false
 
     params.species = false
     return params
@@ -63,10 +63,10 @@ def check_params(Map params, String version) {
     }
 
     // ariba summary columns (default --preset cluster_all)
-    if (params.ariba_extra_summary_arguments){
-        final_params.ariba_extra_summary_arguments = params.ariba_extra_summary_arguments
+    if (params.ariba_summary_arguments){
+        final_params.ariba_summary_arguments = params.ariba_summary_arguments
     } else {
-        final_params.ariba_extra_summary_arguments = '--preset cluster_all'
+        final_params.ariba_summary_arguments = '--preset cluster_all'
     }
     //species for pointfinder databases
     if (params.species){

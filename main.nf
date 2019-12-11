@@ -11,7 +11,8 @@ version = '0.1'
 // include workflow modules
 include './lib/messages'
 include './lib/params_parser'
-include './lib/params_utilities.nf'
+include './lib/params_utilities'
+include './lib/processes'
 
 // setup params
 default_params = default_params()
@@ -33,10 +34,12 @@ include './lib/modules/read_polishing/workflows' params(params_for_read_polishin
 // include ariba functionality
 ariba_params_renames = [
   "ariba_database_dir" : "database_dir",
-  "ariba_extra_summary_arguments" : "extra_summary_arguments",
+  "ariba_summary_arguments" : "summary_arguments",
 ] 
 params_for_ariba = rename_params_keys(final_params, ariba_params_renames)
-include './lib/modules/ariba/workflows' params(params_for_ariba)
+include ariba as ariba_for_acquired from './lib/modules/ariba/workflows' params(params_for_ariba)
+include ariba as ariba_for_point from './lib/modules/ariba/workflows' params(params_for_ariba)
+
 
 
 workflow {
@@ -49,9 +52,14 @@ workflow {
   polished_reads = polish_reads(reads)
 
   // Run Ariba with ncbi acquired database
-  ariba(polished_reads, params_for_ariba.database_dir)
+  ariba_summary_acquired = ariba_for_acquired(polished_reads, params_for_ariba.database_dir, params_for_ariba.summary_arguments)
   if (final_params.species){
     pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
+    ariba_summary_point = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
+    ariba_summary_acquired.view()
+    // acquired_and_point_summaries = ariba_summary_acquired.concat(ariba_summary_point)
+    // acquired_and_point_summaries.view()
+    // combine_ariba_summaries(acquired_and_point_summaries)
   }
 
 }
