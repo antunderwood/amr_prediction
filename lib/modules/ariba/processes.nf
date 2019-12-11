@@ -20,7 +20,7 @@
 
  process ariba_summary {
   container 'bioinformant/ghru-ariba:1.0'
-  
+
   tag {'ariba summary'}
   publishDir "${params.output_dir}/ariba", mode: 'copy'
 
@@ -30,7 +30,8 @@
   val summary_arguments
 
   output:
-  file "ariba_${database_dir}_summary.*"
+  file "ariba_${database_dir}_summary.csv", emit: summary_csv
+  file "ariba_${database_dir}_summary.phandnago.*", emit: phandango_files
 
   script:
   """
