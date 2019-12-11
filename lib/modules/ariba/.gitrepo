@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@gitlab.com:cgps/ghru/pipelines/dsl2/modules/ariba.git
+	branch = master
+	commit = d291fd03cacd1e46441931b67d12aedc63c7653b
+	parent = 4c4a3b0d40722134a2f2353b6b7baf4bf099e881
+	method = merge
+	cmdver = 0.4.0
