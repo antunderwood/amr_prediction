@@ -1,0 +1,14 @@
+gyrA.1	1	1	S67I	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,9527801
+gyrA.1	1	1	S67L	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,9527801
+gyrA.1	1	1	S67N	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,9527801
+gyrA.1	1	1	S67R	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,9527801
+gyrA.1	1	1	S67Y	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,9527801
+gyrA.1	1	1	E71G	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,12373497,12373497
+gyrA.1	1	1	E71K	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,12373497,12373497
+gyrA.1	1	1	E71L	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 12373497,12373497,12373497
+gyrA.1	1	1	S81N	gyrA	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. Notes: Phenotype described only in association with parC mutations, unknown phenotype if the present mutation occurs alone. PMID: 10508034
+parC.1	1	1	S67I	parC	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. PMID: 12373497,12373497
+parC.1	1	1	S67R	parC	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. PMID: 12373497,12373497
+parC.1	1	1	E71A	parC	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. PMID: 12373497,9527801
+parC.1	1	1	E71K	parC	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. PMID: 12373497,9527801
+parC.1	1	1	E71T	parC	Resistance: Nalidixic acid, Ciprofloxacin. Mechanism: Target modification. PMID: 12373497,9527801

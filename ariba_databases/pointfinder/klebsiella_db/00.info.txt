@@ -1,0 +1,3 @@
+input fasta file:	../ariba/pointfinder/klebsiella/klebsiella.fas
+input tsv file:	../ariba/pointfinder/klebsiella/klebsiella_metadata.tsv
+genetic_code	11

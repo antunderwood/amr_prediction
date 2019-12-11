@@ -1,0 +1,72 @@
+16S_rrsD.1	0	1	C1065T	16S_rrsD	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 12402084
+16S_rrsD.1	0	1	C1191T	16S_rrsD	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 12402084
+gyrA.1	1	1	A67P	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 7492118
+gyrA.1	1	1	D72G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12409384
+gyrA.1	1	1	V73I	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12409384
+gyrA.1	1	1	G81C	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553,7492118,15153158
+gyrA.1	1	1	G81H	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553,7492118,15153158
+gyrA.1	1	1	G81S	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553;7492118;15153158
+gyrA.1	1	1	D82G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12523636
+gyrA.1	1	1	D82N	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 15215081
+gyrA.1	1	1	S83F	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 7492118,10471553
+gyrA.1	1	1	S83I	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 7492118,10471553
+gyrA.1	1	1	S83I	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 7492118;10471553
+gyrA.1	1	1	S83Y	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 7492118,10471553
+gyrA.1	1	1	D87G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553,11283069,7492118,15056435
+gyrA.1	1	1	D87K	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12409384
+gyrA.1	1	1	D87N	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553,11283069,7492118,15056435
+gyrA.1	1	1	D87Y	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 10471553,11283069,7492118,15056435
+gyrA.1	1	1	L98V	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+gyrA.1	1	1	A119E	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12409384
+gyrA.1	1	1	A119S	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12409384
+gyrA.1	1	1	A119V	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 8849216
+gyrA.1	1	1	A131G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15848289
+gyrA.1	1	1	E139A	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15848289
+gyrB.1	1	1	Y421C	gyrB	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+gyrB.1	1	1	D426N	gyrB	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 3020376
+gyrB.1	1	1	R438L	gyrB	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+gyrB.1	1	1	K447E	gyrB	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 3020376
+gyrB.1	1	1	S464F	gyrB	Resistance: Ciprofloxacin. Mechanism: Target modification. PMID: 27896141,27896141,27896141
+gyrB.1	1	1	S464T	gyrB	Resistance: Ciprofloxacin. Mechanism: Target modification. PMID: 27896141,27896141,27896141
+gyrB.1	1	1	S464Y	gyrB	Resistance: Ciprofloxacin. Mechanism: Target modification. PMID: 27896141,27896141,27896141
+gyrB.1	1	1	E466D	gyrB	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 26933021
+parC.1	1	1	T57S	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+parC.1	1	1	T66I	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+parC.1	1	1	G78D	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12705680
+parC.1	1	1	S80I	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468,15388468
+parC.1	1	1	S80R	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468,15388468
+parC.1	1	1	E84G	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 14718091,27221661
+parC.1	1	1	E84K	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 14718091,27221661
+parE.1	1	1	M438I	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 26683630
+parE.1	1	1	E454G	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+parE.1	1	1	S458P	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 14576119
+parE.1	1	1	H462Y	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 19104017
+parE.1	1	1	H462Y	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+parE.1	1	1	A499T	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+parE.1	1	1	V514G	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 15388468
+pmrA.1	1	1	G15R	pmrA	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,2550546
+pmrA.1	1	1	G53E	pmrA	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrA.1	1	1	G53R	pmrA	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrA.1	1	1	R81C	pmrA	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrA.1	1	1	R81H	pmrA	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	L14F	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	L14S	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	L22P	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	S29R	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	T92A	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	P94Q	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	E121A	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	S124P	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	N130Y	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	T147P	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	R155P	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	T156M	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	T156P	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	V161G	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669,19332669
+pmrB.1	1	1	V161L	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669,19332669
+pmrB.1	1	1	V161M	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669,19332669
+pmrB.1	1	1	E166K	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	M186I	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669
+pmrB.1	1	1	G206R	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	G206W	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669,19332669
+pmrB.1	1	1	S305R	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 19332669

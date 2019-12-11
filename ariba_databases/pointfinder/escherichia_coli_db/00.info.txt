@@ -1,0 +1,3 @@
+input fasta file:	../ariba/pointfinder/escherichia_coli/escherichia_coli.fas
+input tsv file:	../ariba/pointfinder/escherichia_coli/escherichia_coli_metadata.tsv
+genetic_code	11

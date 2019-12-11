@@ -1,0 +1,3 @@
+input fasta file:	ncbi.fa
+input tsv file:	ncbi.tsv
+genetic_code	11
