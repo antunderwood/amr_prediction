@@ -11,6 +11,6 @@ workflow ariba {
 
     ariba_summary_output = ariba_summary(all_ariba_reports, database_dir, summary_arguments)
   emit:
-    ariba_summary_output.summary_file
+    ariba_summary_output.summary_csv
 
 }
