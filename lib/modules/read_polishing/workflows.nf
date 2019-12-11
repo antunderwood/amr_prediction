@@ -7,8 +7,8 @@ workflow polish_reads {
     read_lengths = determine_min_read_length(reads)
     reads_and_lengths = reads.join(read_lengths)
 
-    // trime reads
-    trimmed_reads = trim_reads(reads_and_lengths, final_params.adapter_file)
+    // trim reads
+    trimmed_reads = trim_reads(reads_and_lengths, params.adapter_file)
 
     // estimate genome size
     mash_output = estimate_genome_size(reads)
@@ -23,7 +23,7 @@ workflow polish_reads {
 
     // downsample reads
     corrected_reads_and_read_depths = corrected_reads.join(read_depths)
-    downsampled_reads = downsample_reads(corrected_reads_and_read_depths, final_params.depth_cutoff)
+    downsampled_reads = downsample_reads(corrected_reads_and_read_depths, params.depth_cutoff)
   emit:
     downsampled_reads
 
