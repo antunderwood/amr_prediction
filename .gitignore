@@ -1,0 +1,7 @@
+.nextflow*
+test_input
+test_output
+.vscode
+work
+local_ariba_db
+.default_hidden
