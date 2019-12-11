@@ -7,11 +7,12 @@
 
 // DSL 2
 nextflow.preview.dsl=2
+version = '0.1'
+// include workflow modules
 include './lib/messages'
 include './lib/params_parser'
 include './lib/params_utilities.nf'
 
-version = '0.1'
 // setup params
 default_params = default_params()
 merged_params = default_params + params
@@ -27,19 +28,7 @@ read_polising_params_renames = [
   "read_polishing_depth_cutoff" : "depth_cutoff"
 ]
 params_for_read_polising = rename_params_keys(final_params, read_polising_params_renames)
-include polish_reads from '../read_polishing/main' params(params_for_read_polising)
-
-// // include resfinder functionality
-// resfinder_params_renames = [
-//   "resfinder_min_cov" : "min_cov",
-//   "resfinder_identity_threshold" : "identity_threshold",
-//   "resfinder_species" : "species",
-//   "resfinder_point_mutation" : "point_mutation",
-//   "resfinder_db_resfinder" : "db_resfinder",
-//   "resfinder_db_pointfinder" : "db_pointfinder"
-// ] 
-// params_for_resfinder = rename_params_keys(final_params, resfinder_params_renames)
-// include './sub_workflows/resfinder/main' params(params_for_resfinder)
+include './lib/modules/read_polishing/worflows' params(params_for_read_polising)
 
 // include ariba functionality
 ariba_params_renames = [
@@ -47,7 +36,7 @@ ariba_params_renames = [
   "ariba_extra_summary_arguments" : "extra_summary_arguments",
 ] 
 params_for_ariba = rename_params_keys(final_params, ariba_params_renames)
-include ariba from '../ariba/main' params(params_for_ariba)
+include '.lib/modules/ariba/workflows' params(params_for_ariba)
 
 
 workflow {
