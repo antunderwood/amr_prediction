@@ -10,7 +10,7 @@ workflow ariba {
     all_ariba_reports = ariba_reports.collect { it }
 
     summary_file = ariba_summary(all_ariba_reports, database_dir, summary_arguments)
-  emits:
+  emit:
     summary_file
 
 }
