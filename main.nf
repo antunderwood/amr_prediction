@@ -52,12 +52,11 @@ workflow {
   polished_reads = polish_reads(reads)
 
   // Run Ariba with ncbi acquired database
-  ariba_summary_acquired = ariba_for_acquired(polished_reads, params_for_ariba.database_dir, params_for_ariba.summary_arguments)
+  ariba_acquired_summary_output = ariba_for_acquired(polished_reads, params_for_ariba.database_dir, params_for_ariba.summary_arguments)
   if (final_params.species){
     pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
-    ariba_summary_point = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
-    ariba_summary_acquired.view()
-    // acquired_and_point_summaries = ariba_summary_acquired.concat(ariba_summary_point)
+    ariba_point_summary_output = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
+    acquired_and_point_summaries = ariba_acquired_summary_output.summary_file.concat(ariba_point_summary_output.summary_file)
     // acquired_and_point_summaries.view()
     // combine_ariba_summaries(acquired_and_point_summaries)
   }
