@@ -1,6 +1,5 @@
 // Assess read length and make MIN LEN for trimmomatic 1/3 of this value
 process determine_min_read_length {
-  container 'bioinformant/ghru-read-polishing:1.0'
   tag { pair_id }
 
   input:
@@ -17,7 +16,6 @@ process determine_min_read_length {
 
 // Trimming
 process trim_reads {
-  container 'bioinformant/ghru-read-polishing:1.0'
   memory '4 GB'
   
   tag { pair_id }
@@ -38,7 +36,6 @@ process trim_reads {
 }
 
 process estimate_genome_size {
-  container 'bioinformant/ghru-read-polishing:1.0'
   tag { pair_id }
   
   input:
@@ -63,7 +60,6 @@ def find_genome_size(pair_id, mash_output) {
 
 // Read Corection
 process correct_reads {
-  container 'bioinformant/ghru-read-polishing:1.0'
   tag { pair_id }
   
   input:
@@ -91,7 +87,6 @@ def find_average_depth(pair_id, lighter_output){
 }
 
 process downsample_reads {
-  container 'bioinformant/ghru-read-polishing:1.0'
   tag { pair_id }
 
   input:
