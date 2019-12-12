@@ -28,7 +28,7 @@ process trim_reads {
   tuple pair_id, file('trimmed_fastqs/*.f*q.gz')
 
   script:
-  shortest_read_length_to_keep = min_read_length.toInteger()/3
+  shortest_read_length_to_keep = (min_read_length/3).toInteger()
   """
   mkdir trimmed_fastqs
   trimmomatic PE -threads 1 -phred33 ${file_pair[0]} ${file_pair[1]} trimmed_fastqs/${file_pair[0]} /dev/null trimmed_fastqs/${file_pair[1]} /dev/null ILLUMINACLIP:adapter_file.fas:2:30:10 SLIDINGWINDOW:4:20 LEADING:25 TRAILING:25 MINLEN:${shortest_read_length_to_keep}  
