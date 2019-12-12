@@ -12,8 +12,6 @@ version = '0.1'
 include './lib/messages'
 include './lib/params_parser'
 include './lib/params_utilities'
-include './lib/processes'
-
 // setup params
 default_params = default_params()
 merged_params = default_params + params
@@ -22,6 +20,8 @@ merged_params = default_params + params
 help_or_version(merged_params, version)
 
 final_params = check_params(merged_params, version)
+println(final_params)
+include './lib/processes' params(final_params)
 
 // include read polishing functionality
 read_polising_params_renames = [
@@ -57,7 +57,6 @@ workflow {
     pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
     ariba_point_summary_output = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
     acquired_and_point_summaries = ariba_acquired_summary_output.concat(ariba_point_summary_output).collect()
-    acquired_and_point_summaries.view()
     combine_ariba_summaries(acquired_and_point_summaries)
   }
 
