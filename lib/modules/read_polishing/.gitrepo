@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@gitlab.com:cgps/ghru/pipelines/dsl2/modules/read_polishing.git
 	branch = master
-	commit = 76473762b37514df33d70b3110a14dae6699bc40
-	parent = 383f2128078fc289b51418e2602426291fd28978
+	commit = 19b5241a380151b5573a8f660fef7a571f9765cf
+	parent = 884708fa228e6c7ad295705aea699ff302839583
 	method = merge
 	cmdver = 0.4.0
