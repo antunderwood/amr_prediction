@@ -59,7 +59,7 @@ def check_params(Map params, String version) {
     if (params.ariba_database_dir){
         final_params.ariba_database_dir = file(params.ariba_database_dir)
     } else {
-        final_params.ariba_database_dir = file('ariba_databases/ncbi_db_2019-10-30.1')
+        final_params.ariba_database_dir = file("${workflow.projectDir}/ariba_databases/ncbi_db_2019-10-30.1")
     }
 
     // ariba summary columns (default --preset cluster_all)

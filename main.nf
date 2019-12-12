@@ -20,7 +20,6 @@ merged_params = default_params + params
 help_or_version(merged_params, version)
 
 final_params = check_params(merged_params, version)
-println(final_params)
 include './lib/processes' params(final_params)
 
 // include read polishing functionality
@@ -54,7 +53,8 @@ workflow {
   // Run Ariba with ncbi acquired database
   ariba_acquired_summary_output = ariba_for_acquired(polished_reads, params_for_ariba.database_dir, params_for_ariba.summary_arguments)
   if (final_params.species){
-    pointfinder_db = file('ariba_databases/pointfinder/' + final_params.species + '_db')
+    pointfinder_db = file("${workflow.projectDir}/ariba_databases/pointfinder/${final_params.species}_db")
+    println(pointfinder_db)
     ariba_point_summary_output = ariba_for_point(polished_reads,pointfinder_db, '--known_variants')
     acquired_and_point_summaries = ariba_acquired_summary_output.concat(ariba_point_summary_output).collect()
     combine_ariba_summaries(acquired_and_point_summaries)
