@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@gitlab.com:cgps/ghru/pipelines/dsl2/modules/ariba.git
 	branch = master
-	commit = 0553676f152d4e6cd0fc56b3b2444c57da446905
-	parent = 37728da7cfd6f9094d78b3a83f9e1bd4e7976e50
+	commit = ec20bf2fcfc9f2854e0cb16485095aec7e294381
+	parent = 5cfefe0be68de71d19481fde0d585f6cca4927c5
 	method = merge
 	cmdver = 0.4.0

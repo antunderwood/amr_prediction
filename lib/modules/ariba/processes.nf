@@ -1,6 +1,4 @@
  process run_ariba {
-  container 'bioinformant/ghru-ariba:1.0'
-
   tag {sample_id}
   publishDir "${params.output_dir}/ariba",
   mode: 'copy'
@@ -19,8 +17,6 @@
  }
 
  process ariba_summary {
-  container 'bioinformant/ghru-ariba:1.0'
-
   tag {'ariba summary'}
   publishDir "${params.output_dir}/ariba", mode: 'copy'
 
