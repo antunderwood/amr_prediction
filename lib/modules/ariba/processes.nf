@@ -10,11 +10,11 @@
    file(database_dir)
 
    output:
-   file("${sample_id}_${database_dir}.report.tsv")
+   file("${sample_id}_${database_dir}.report.csv")
 
    """
    ariba run ${database_dir} ${reads[0]} ${reads[1]} ${sample_id}.ariba
-   mv ${sample_id}.ariba/report.tsv ${sample_id}_${database_dir}.report.tsv
+   mv ${sample_id}.ariba/report.tsv ${sample_id}_${database_dir}.report.csv
    """
  }
 
@@ -35,6 +35,10 @@
 
   script:
   """
-  ariba summary ${summary_arguments} ariba_${database_dir}_summary ${report_tsvs}
+  mkdir renamed_reports
+  for report_tsv in ${report_tsvs}; do
+    mv \$report_tsv renamed_reports/\${report_tsv%_${database_dir}.report.tsv}
+  done
+  ariba summary ${summary_arguments} ariba_${database_dir}_summary \$(ls renamed_reports)
   """
 }
