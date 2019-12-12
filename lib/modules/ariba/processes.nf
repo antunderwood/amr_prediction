@@ -39,6 +39,8 @@
   for report_tsv in ${report_tsvs}; do
     mv \$report_tsv renamed_reports/\${report_tsv%_${database_dir}.report.csv}
   done
-  ariba summary ${summary_arguments} ariba_${database_dir}_summary \$(ls renamed_reports/*)
+  renamed_report_files=\$(ls renamed_reports)
+  mv renamed_reports/* .
+  ariba summary ${summary_arguments} ariba_${database_dir}_summary \$renamed_report_files
   """
 }
