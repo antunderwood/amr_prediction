@@ -17,19 +17,21 @@ def help_message() {
         --output_dir                Path to output dir
 
         Optional ariba arguments:
-        --ariba_database_dir   Path to a local dir containing ariba resitance database (default is /resfinder_database.17.10.2019)
+        --ariba_database_dir   Path to a local dir containing ariba resitance database (default is ariba_databases/ncbi_db_2019-10-30.1)
         --ariba_summary_arguments Supply the non-default options for the ariba summary command.
             Wrap these in quotes e.g '--preset minimal --min_id 95'
             (default is '--cluster_cols assembled,match,ref_seq,pct_id,ctg_cov')
-        
-        Optional resfinder arguments:
-        --resfinder_min_cov                     Minimum breadth of coverage (default 0.9)
-        --resfinder_identity_threshold          Minimum identity for the match to the AMR determinant (default 0.9)
-        --resfinder_species                     Name of the species
-        --resfinder_point_mutation              Find point mutation-based resistance
-        --resfinder_db_resfinder                Path to the resfinder database (default is /resfinder/db_resfinder)
-        --resfinder_db_pointfinder              Path to the pointfinder database (default is /resfinder/db_pointfinder)
-        """.stripIndent()
+        --species If point-based mutations are required specify a species. This must be one of
+                    campylobacter
+                    enterococcus_faecalis
+                    enterococcus_faecium
+                    escherichia_coli
+                    helicobacter_pylori
+                    klebsiella
+                    mycobacterium_tuberculosis
+                    neisseria_gonorrhoeae
+                    salmonella
+                    staphylococcus_aureus
     )
 }
 

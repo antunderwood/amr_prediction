@@ -7,7 +7,7 @@
 
 // DSL 2
 nextflow.preview.dsl=2
-version = '0.1'
+version = '1.0'
 // include workflow modules
 include './lib/messages'
 include './lib/params_parser'
