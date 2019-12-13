@@ -32,6 +32,7 @@ def help_message() {
                     neisseria_gonorrhoeae
                     salmonella
                     staphylococcus_aureus
+        """
     )
 }
 
