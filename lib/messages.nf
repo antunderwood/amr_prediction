@@ -1,9 +1,9 @@
 def version_message(String version) {
     println(
         """
-        ==============================================
-        Resfinder Pipeline version ${version}
-        ==============================================
+        ===================================================
+            AMR prediction Pipeline version ${version}
+        ===================================================
         """.stripIndent()
     )
 }
@@ -32,7 +32,7 @@ def help_message() {
                     neisseria_gonorrhoeae
                     salmonella
                     staphylococcus_aureus
-        """
+        """.stripIndent()
     )
 }
 
