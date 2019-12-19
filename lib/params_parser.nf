@@ -66,7 +66,7 @@ def check_params(Map params, String version) {
     if (params.ariba_summary_arguments){
         final_params.ariba_summary_arguments = params.ariba_summary_arguments
     } else {
-        final_params.ariba_summary_arguments = '--cluster_cols assembled,match,ref_seq,pct_id,ctg_cov --col_filter n --row_filter n'
+        final_params.ariba_summary_arguments = '--cluster_cols assembled,ref_seq,pct_id,ctg_cov --col_filter n --row_filter n'
     }
     //species for pointfinder databases
     if (params.species){
