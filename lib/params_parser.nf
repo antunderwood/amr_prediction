@@ -44,7 +44,7 @@ def check_params(Map params, String version) {
     if (params.read_polishing_adapter_file){
         final_params.read_polishing_adapter_file = file(params.read_polishing_adapter_file)
     } else {
-        final_params.read_polishing_adapter_file = file('adapters.fas')
+        final_params.read_polishing_adapter_file = file("${workflow.projectDir}/adapters.fas")
     }
 
     if (params.read_polishing_depth_cutoff){
