@@ -1,3 +1,0 @@
-input fasta file:	../ariba/pointfinder/enterococcus_faecium/enterococcus_faecium.fas
-input tsv file:	../ariba/pointfinder/enterococcus_faecium/enterococcus_faecium_metadata.tsv
-genetic_code	11

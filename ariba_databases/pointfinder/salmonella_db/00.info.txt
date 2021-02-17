@@ -1,3 +1,0 @@
-input fasta file:	../ariba/pointfinder/salmonella/salmonella.fas
-input tsv file:	../ariba/pointfinder/salmonella/salmonella_metadata.tsv
-genetic_code	11

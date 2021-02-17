@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@gitlab.com:cgps/ghru/pipelines/data_sources/ariba_amr_databases.git
 	branch = master
-	commit = 7f391d61c51191e61896efb71996c6206e651abf
-	parent = 906c912017b770ec803d345ae13a2c58be03896e
+	commit = 111d4e48846dc647c7f193ec2f65d405263d904d
+	parent = 78cfe6ccc3dd6f8d4f0b08bf37518967fcf1f06f
 	method = merge
 	cmdver = 0.4.0

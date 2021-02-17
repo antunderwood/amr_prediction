@@ -1,3 +1,0 @@
-input fasta file:	../ariba/pointfinder/staphylococcus_aureus/staphylococcus_aureus.fas
-input tsv file:	../ariba/pointfinder/staphylococcus_aureus/staphylococcus_aureus_metadata.tsv
-genetic_code	11

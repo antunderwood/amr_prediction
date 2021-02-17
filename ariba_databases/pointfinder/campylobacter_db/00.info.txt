@@ -1,3 +1,0 @@
-input fasta file:	../ariba/pointfinder/campylobacter/campylobacter.fas
-input tsv file:	../ariba/pointfinder/campylobacter/campylobacter_metadata.tsv
-genetic_code	11

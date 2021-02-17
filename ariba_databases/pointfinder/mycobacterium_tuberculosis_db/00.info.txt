@@ -1,3 +1,0 @@
-input fasta file:	../ariba/pointfinder/mycobacterium_tuberculosis/mycobacterium_tuberculosis.fas
-input tsv file:	../ariba/pointfinder/mycobacterium_tuberculosis/mycobacterium_tuberculosis_metadata.tsv
-genetic_code	11

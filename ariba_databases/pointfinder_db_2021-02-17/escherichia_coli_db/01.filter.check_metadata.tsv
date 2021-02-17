@@ -1,0 +1,114 @@
+16S_rrsB.1	0	1	A523C	16S_rrsB	Resistance: Streptomycin. Mechanism: Interference with drug-induced conformational modification. PMID: 3054810
+16S_rrsB.1	0	1	G1058C	16S_rrsB	Resistance: Tetracycline,  Doxycycline, Minocycline, Tigecycline. Mechanism: Target modification. Notes: Tigecycline borderline resistance . PMID: 14985271
+16S_rrsB.1	0	1	G1064A	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 8127669,8127669,8127669
+16S_rrsB.1	0	1	G1064C	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 8127669,8127669,8127669
+16S_rrsB.1	0	1	G1064T	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 8127669,8127669,8127669
+16S_rrsB.1	0	1	C1066T	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 7885842
+16S_rrsB.1	0	1	C1192A	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 2447957,2447957,2447957
+16S_rrsB.1	0	1	C1192G	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 2447957,2447957,2447957
+16S_rrsB.1	0	1	C1192T	16S_rrsB	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 2447957,2447957,2447957
+16S_rrsB.1	0	1	T1406A	16S_rrsB	Resistance: G418,Gentamicin C,Kanamycin A,Tobramycin . Mechanism: Target modification. PMID: 11502507
+16S_rrsB.1	0	1	A1408G	16S_rrsB	Resistance: Gentamicin C,Kanamycin A,Neomycin,Paromomycin. Mechanism: Target modification. PMID: 11502507
+16S_rrsC.1	0	1	A794G	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710
+16S_rrsC.1	0	1	A794T	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710
+16S_rrsC.1	0	1	G926A	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsC.1	0	1	G926C	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsC.1	0	1	G926T	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsC.1	0	1	A1519C	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsC.1	0	1	A1519G	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsC.1	0	1	A1519T	16S_rrsC	Resistance: Kasugamycin. Mechanism: Target modification. PMID: 10512710,10512710,10512710
+16S_rrsH.1	0	1	C1192T	16S_rrsH	Resistance: Spectinomycin. Mechanism: Target modification. PMID: 6330677
+23S.1	0	1	T754A	23S	Resistance: Erythromycin,Telithromycin. Mechanism: Target modification. PMID: 10027979
+23S.1	0	1	G2032A	23S	Resistance: Linezolid. Mechanism: Target modification. PMID: 10986233
+23S.1	0	1	G2032C	23S	Resistance: Linezolid. Mechanism: Target modification. PMID: 10986233
+23S.1	0	1	G2032T	23S	Resistance: Linezolid. Mechanism: Target modification. PMID: 10986233
+23S.1	0	1	A2058G	23S	Resistance: Erythromycin,Azithromycin,Telithromycin. Mechanism: Target modification. PMID: 15616307
+23S.1	0	1	G2447T	23S	Resistance: Linezolid. Mechanism: Target modification. PMID: 10986233
+23S.1	0	1	T2609C	23S	Resistance: Telithromycin. Mechanism: Target modification. PMID: 11698379
+ampC_promoter.1	0	1	C12A	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+ampC_promoter.1	0	1	C12G	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+ampC_promoter.1	0	1	C12T	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+ampC_promoter.1	0	1	T22A	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+ampC_promoter.1	0	1	T22C	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+ampC_promoter.1	0	1	T22G	ampC_promoter	Resistance: ampicillin,ampicillin+clavulanic acid,amoxicillin,amoxicillin+clavulanic acid,cefixime,cefotaxime,cefoxitin,ceftazidime,piperacillin. Mechanism: Enzymatic degradation. PMID: 21653764,21653764,21653764
+folP.1	1	1	F28I	folP	Resistance: Sulfamethoxazole. PMID: 1522070,7642493
+folP.1	1	1	F28L	folP	Resistance: Sulfamethoxazole. PMID: 1522070,7642493
+folP.1	1	1	P64S	folP	Resistance: Sulfamethoxazole. PMID: 9449266
+gyrA.1	1	1	A51V	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 11451702
+gyrA.1	1	1	A67S	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 2168148
+gyrA.1	1	1	G81C	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: G81D mutation confers resistance to ciprofloxacin only. If G81D and D82G are present simultaneously, there is also nalidixic acid resistance. PMID: 2168148,8392306
+gyrA.1	1	1	G81C	gyrA	Resistance: Ciprofloxacin. Mechanism: Target modification. Notes: G81D mutation confers resistance to ciprofloxacin only. If G81D and D82G are present simultaneously, there is also nalidixic acid resistance. PMID: 2168148,8392306
+gyrA.1	1	1	G81D	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: G81D mutation confers resistance to ciprofloxacin only. If G81D and D82G are present simultaneously, there is also nalidixic acid resistance. PMID: 2168148,8392306
+gyrA.1	1	1	G81D	gyrA	Resistance: Ciprofloxacin. Mechanism: Target modification. Notes: G81D mutation confers resistance to ciprofloxacin only. If G81D and D82G are present simultaneously, there is also nalidixic acid resistance. PMID: 2168148,8392306
+gyrA.1	1	1	D82G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D82G mutation confers resistance to ciprofloxacin only. If D82G and G81D are present simultaneously, there is also nalidixic acid resistance. PMID: 8980760
+gyrA.1	1	1	D82G	gyrA	Resistance: Ciprofloxacin. Mechanism: Target modification. Notes: D82G mutation confers resistance to ciprofloxacin only. If D82G and G81D are present simultaneously, there is also nalidixic acid resistance. PMID: 8980760
+gyrA.1	1	1	S83A	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 8891148,2168148,12654733,12654733
+gyrA.1	1	1	S83L	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 8891148,2168148,12654733,12654733
+gyrA.1	1	1	S83V	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 8891148,2168148,12654733,12654733
+gyrA.1	1	1	S83W	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 8891148,2168148,12654733,12654733
+gyrA.1	1	1	A84P	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if A84P or A84V occur alone. Nalidixic acid and ciprofloxacin resistance when associated with other gyrA mutations. PMID: 11451702,7840592
+gyrA.1	1	1	A84V	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if A84P or A84V occur alone. Nalidixic acid and ciprofloxacin resistance when associated with other gyrA mutations. PMID: 11451702,7840592
+gyrA.1	1	1	D87A	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87A	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87G	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87G	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87H	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87H	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87N	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87N	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87V	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87V	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87Y	gyrA	Resistance: Nalidixic acid. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	D87Y	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: D87G or D87Y confer resistance to nalidixic acid only, if occurring alone. Unknown phenotype if D87H occurs alone. PMID: 12654733,12654733,12654733,22878251,12654733,1850972
+gyrA.1	1	1	Q106H	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if Q106H occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with other gyrA mutations. PMID: 2168148,1850970
+gyrA.1	1	1	Q106R	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if Q106H occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with other gyrA mutations. PMID: 2168148,1850970
+gyrA.1	1	1	A196E	gyrA	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if A196E occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with other gyrA mutations. PMID: 14506034
+gyrB.1	1	1	D426N	gyrB	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 1656869
+gyrB.1	1	1	K447E	gyrB	Resistance: Nalidixic acid. Mechanism: Target modification. PMID: 1656869
+parC.1	1	1	A56T	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 12654733
+parC.1	1	1	S57T	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if S57T occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14510643
+parC.1	1	1	F60I	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if F60I or F60K occur alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 18500921,1850092
+parC.1	1	1	F60K	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if F60I or F60K occur alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 18500921,1850092
+parC.1	1	1	G78C	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if G78C occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,14510643
+parC.1	1	1	G78D	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if G78C occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,14510643
+parC.1	1	1	S80I	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,8851598,21856834-20638608,8524852,25631675,25631675,25631675
+parC.1	1	1	S80L	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,8851598,21856834-20638608,8524852,25631675,25631675,25631675
+parC.1	1	1	S80R	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,8851598,21856834-20638608,8524852,25631675,25631675,25631675
+parC.1	1	1	S80W	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 8851598,8851598,21856834-20638608,8524852,25631675,25631675,25631675
+parC.1	1	1	E84A	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 12654733,8524852,12654733,20638608,20638608
+parC.1	1	1	E84G	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 12654733,8524852,12654733,20638608,20638608
+parC.1	1	1	E84K	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 12654733,8524852,12654733,20638608,20638608
+parC.1	1	1	E84R	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 12654733,8524852,12654733,20638608,20638608
+parC.1	1	1	E84V	parC	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if each mutation occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 12654733,8524852,12654733,20638608,20638608
+parC.1	1	1	A108T	parC	Resistance: Unknown. Mechanism: Target modification. PMID: 12523629,18500921
+parC.1	1	1	A108V	parC	Resistance: Unknown. Mechanism: Target modification. PMID: 12523629,18500921
+parE.1	1	1	I355T	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if I355T occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 28598203
+parE.1	1	1	L416F	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if L416F occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14510643
+parE.1	1	1	G423R	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if G423R occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 18500921
+parE.1	1	1	P439S	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if P439S occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 18500921
+parE.1	1	1	I444F	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if I444F occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14506034
+parE.1	1	1	L445H	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. PMID: 8980775
+parE.1	1	1	S458A	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if S458T or S458A occur alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14506034,28598203
+parE.1	1	1	S458T	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if S458T or S458A occur alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14506034,28598203
+parE.1	1	1	E460D	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if E460D occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14510643
+parE.1	1	1	I464F	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if I464F occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 14510643
+parE.1	1	1	I470M	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if I470M occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 18500921
+parE.1	1	1	D476N	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if D476N occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations. PMID: 25631675
+parE.1	1	1	I529L	parE	Resistance: Nalidixic acid,Ciprofloxacin. Mechanism: Target modification. Notes: Unknown phenotype if I529L occurs alone. Nalidixic acid and ciprofloxacin resistance when associated with gyrA mutations.. PMID: 14506034
+pmrA.1	1	1	S39I	pmrA	Resistance: Colistin. Mechanism: Target modification. Notes: Phenotype described when S39I and R81S occur simultaneously. PMID: 25150146
+pmrA.1	1	1	R81S	pmrA	Resistance: Colistin. Mechanism: Target modification. Notes: Phenotype described when S39I and R81S occur simultaneously. PMID: 25150146
+pmrB.1	1	1	V161G	pmrB	Resistance: Colistin. Mechanism: Target modification. PMID: 25150146
+rpoB.1	1	1	V146F	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	Q513L	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	Q513P	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	H526Y	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	R529C	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	R529S	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	S531F	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	L533P	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	T563P	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	P564L	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121
+rpoB.1	1	1	I572F	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 23433244
+rpoB.1	1	1	I572L	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 23433244
+rpoB.1	1	1	I572N	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 23433244
+rpoB.1	1	1	R687H	rpoB	Resistance: Rifampicin. Mechanism: Target modification. PMID: 3050121

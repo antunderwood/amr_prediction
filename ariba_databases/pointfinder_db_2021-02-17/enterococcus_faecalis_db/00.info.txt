@@ -1,0 +1,3 @@
+input fasta file:	/Users/au3/Documents/code/ghru/nextflow_pipelines/data_sources/ariba_amr_databases/pointfinder_db_2021-02-17/enterococcus_faecalis/enterococcus_faecalis.fas
+input tsv file:	/Users/au3/Documents/code/ghru/nextflow_pipelines/data_sources/ariba_amr_databases/pointfinder_db_2021-02-17/enterococcus_faecalis/enterococcus_faecalis_metadata.tsv
+genetic_code	11
