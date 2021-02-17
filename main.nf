@@ -53,7 +53,7 @@ workflow {
   // Run Ariba with ncbi acquired database
   ariba_acquired_summary_output = ariba_for_acquired(polished_reads, params_for_ariba.database_dir, params_for_ariba.summary_arguments)
   if (final_params.species){
-    pointfinder_db = file("${workflow.projectDir}/ariba_databases/pointfinder/${final_params.species}_db")
+    pointfinder_db = file("${workflow.projectDir}/ariba_databases/pointfinder_db_2021-02-17/${final_params.species}_db")
     ariba_point_summary_output = ariba_for_point(polished_reads,pointfinder_db, '--cluster_cols assembled --known_variants --col_filter n --row_filter n')
     acquired_and_point_summaries = ariba_acquired_summary_output.concat(ariba_point_summary_output).collect()
     combine_ariba_summaries(acquired_and_point_summaries)
